@@ -1,0 +1,6 @@
+format_version = 2
+
+[apps.SCUIDemo]
+identifier = 'com.example.SCUIDemo'
+product = 'SCUIDemo'
+version = '0.1.0'
