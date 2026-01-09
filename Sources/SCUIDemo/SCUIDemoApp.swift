@@ -15,7 +15,7 @@ struct SCUIDemoApp: App {
                 in: .userDomainMask
             ).first!
             
-            let dbDir = containerPath.relativePath.replacingOccurrences(of: "%20", with: " ").appending("/VeinSwiftUI/BasicExample/InternalData")
+            let dbDir = containerPath.relativePath.replacingOccurrences(of: "%20", with: " ").appending("/VeinSCUI/BasicExample/InternalData")
             
             let dbPath = dbDir.appending("/db.sqlite3")
             

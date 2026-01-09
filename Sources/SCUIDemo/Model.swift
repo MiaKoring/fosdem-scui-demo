@@ -15,7 +15,7 @@ enum RecordingV1: VersionedSchema {
     }
     
     @Model
-    class Recording: Identifiable {
+    final class Recording: Identifiable {
         typealias SchemaMigration = TestMigration
         
         static let schema = "recordings"
