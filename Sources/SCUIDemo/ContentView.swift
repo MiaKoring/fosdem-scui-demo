@@ -6,9 +6,7 @@ import VeinSCUI
 struct ContentView: View {
     @Query
     var recordings: [Recording]
-    
     @Environment(\.modelContext) var context
-    
     @State var isRecording = false
     
     var body: some View {
@@ -20,7 +18,8 @@ struct ContentView: View {
                 if !isRecording {
                     Circle().fill(.red).frame(width: 40)
                 } else {
-                    RoundedRectangle(cornerRadius: 5).fill(.red).frame(width: 25, height: 25)
+                    RoundedRectangle(cornerRadius: 5)
+                        .fill(.red).frame(width: 25, height: 25)
                 }
             }
             .onTapGesture(perform: recordButtonTapped)
