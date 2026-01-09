@@ -1,5 +1,5 @@
 {
-  "originHash" : "d63b93a6d74ab86627f90e257ed7121a0841c434bba1aa83c5d88edc79dd4334",
+  "originHash" : "a3d175b9b100f2aef5f598fce3164b6da887a1c2503d88ee77de6fda4840048e",
   "pins" : [
     {
       "identity" : "aexml",
@@ -26,6 +26,24 @@
       "state" : {
         "revision" : "3a506bb36e4aa54eb3f1b13f15e636c68ee3eb19",
         "version" : "0.0.5"
+      }
+    },
+    {
+      "identity" : "errorkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stackotter/ErrorKit",
+      "state" : {
+        "revision" : "1c30f90abe4118773e89b819d6b5db91432a81a5",
+        "version" : "1.2.2"
+      }
+    },
+    {
+      "identity" : "flyingfox",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swhitty/FlyingFox",
+      "state" : {
+        "revision" : "02ad2f412a29c9ea8cee3924a3143d51a4288323",
+        "version" : "0.26.0"
       }
     },
     {
@@ -80,15 +98,6 @@
       "state" : {
         "revision" : "cdf146ae671b2624917648b61c908d1244b98ca1",
         "version" : "4.2.1"
-      }
-    },
-    {
-      "identity" : "socket",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/stackotter/Socket",
-      "state" : {
-        "revision" : "9945adfb7b2b089b1f9963db31544f604d260293",
-        "version" : "0.3.3"
       }
     },
     {
@@ -150,7 +159,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stackotter/swift-bundler",
       "state" : {
-        "revision" : "4328ee894bf022e7ea973245928be0cb51ba45a0"
+        "revision" : "2cbe252923017306998297ee8bea817079a0eda4"
       }
     },
     {
@@ -274,8 +283,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-parsing",
       "state" : {
-        "revision" : "a0e7d73f462c1c38c59dc40a3969ac40cea42950",
-        "version" : "0.13.0"
+        "revision" : "3432cb81164dd3d69a75d0d63205be5fbae2c34b",
+        "version" : "0.14.1"
       }
     },
     {
