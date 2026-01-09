@@ -31,16 +31,18 @@ struct ContentView: View {
             }
             
             ScrollView {
+                Text("Previous Recordings")
+                    .frame(maxWidth: .infinity)
+                Divider()
                 ForEach(recordings) { recording in
                     HStack(spacing: 10) {
                         Text(recording.name)
                         Button("Play") {}
                     }
                 }
-                Spacer()
             }
         }
-        .frame(width: 220)
+        .frame(width: 220, height: 400)
         .padding(24)
         .background(Color.black.opacity(0.8))
         .cornerRadius(20)

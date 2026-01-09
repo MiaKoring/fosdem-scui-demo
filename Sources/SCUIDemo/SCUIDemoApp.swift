@@ -45,7 +45,8 @@ struct SCUIDemoApp: App {
                 ContentView()
             }
             .modelContainer(modelContainer)
+            .colorScheme(.dark)
         }
-        .defaultSize(width: 100, height: 300)
+        .windowResizability(.contentSize)
     }
 }
