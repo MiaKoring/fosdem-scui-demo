@@ -30,9 +30,6 @@ struct ContentView: View {
             }
             
             ScrollView {
-                Text("Previous Recordings")
-                    .frame(maxWidth: .infinity)
-                Divider()
                 ForEach(recordings) { recording in
                     HStack(spacing: 10) {
                         Text(recording.name)

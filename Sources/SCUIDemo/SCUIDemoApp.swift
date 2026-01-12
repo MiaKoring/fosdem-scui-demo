@@ -4,7 +4,12 @@ import Vein
 import VeinSCUI
 import DefaultBackend
 
+#if canImport(SwiftBundlerRuntime)
+import SwiftBundlerRuntime
+#endif
+
 @main
+@HotReloadable
 struct SCUIDemoApp: App {
     let modelContainer: ModelContainer
     
@@ -47,6 +52,31 @@ struct SCUIDemoApp: App {
             .modelContainer(modelContainer)
             .colorScheme(.dark)
         }
-        .windowResizability(.contentSize)
+        #if !canImport(UIKit)
+            .windowResizability(.contentSize)
+        #else
+            .defaultSize(width: 100, height: 300)
+        #endif
+    }
+}
+
+public struct AlternativeContainer<Content: View>: View {
+    @State private var isInitialized: Bool = false
+    private let content: () -> Content
+    
+    public init(@ViewBuilder content: @escaping () -> Content ) {
+        self.content = content
+    }
+    
+    public var body: some View {
+        if isInitialized {
+            content()
+        } else {
+            ProgressView()
+                .task {
+                    try? await Task.sleep(for: .seconds(1))
+                    isInitialized = true
+                }
+        }
     }
 }
