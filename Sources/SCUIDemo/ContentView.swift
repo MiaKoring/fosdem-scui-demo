@@ -49,7 +49,12 @@ struct ContentView: View {
         if !isRecording {
             let formatter = DateFormatter()
             formatter.dateFormat = "HH:mm dd.MM"
-            try? context.insert(Recording(name: "Recording \(formatter.string(from: .now))", audio: Data()))
+            try? context.insert(
+                Recording(
+                    name: "Recording \(formatter.string(from: .now))",
+                    audio: Data()
+                )
+            )
         }
     }
 }
