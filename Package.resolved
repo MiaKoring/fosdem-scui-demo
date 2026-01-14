@@ -1,5 +1,5 @@
 {
-  "originHash" : "a3d175b9b100f2aef5f598fce3164b6da887a1c2503d88ee77de6fda4840048e",
+  "originHash" : "534983e172024d7af6baad157e3690cd67c51653b4988d8f2e7ea457cc82a8c3",
   "pins" : [
     {
       "identity" : "aexml",
@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swhitty/FlyingFox",
       "state" : {
-        "revision" : "02ad2f412a29c9ea8cee3924a3143d51a4288323",
-        "version" : "0.26.0"
+        "revision" : "f9d9a180fca7a1783f4da30a4f0a73533a75b4fd",
+        "version" : "0.26.1"
       }
     },
     {
@@ -159,7 +159,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stackotter/swift-bundler",
       "state" : {
-        "revision" : "2cbe252923017306998297ee8bea817079a0eda4"
+        "revision" : "2dbcb92047148efbc20e9ed47f66bc2dfd93b3f7"
       }
     },
     {
@@ -176,8 +176,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-certificates",
       "state" : {
-        "revision" : "133a347911b6ad0fc8fe3bf46ca90c66cff97130",
-        "version" : "1.17.0"
+        "revision" : "7d5f6124c91a2d06fb63a811695a3400d15a100e",
+        "version" : "1.17.1"
       }
     },
     {
@@ -185,8 +185,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-collections.git",
       "state" : {
-        "revision" : "8c0c0a8b49e080e54e5e328cc552821ff07cd341",
-        "version" : "1.2.1"
+        "revision" : "7b847a3b7008b2dc2f47ca3110d8c782fb2e5c7e",
+        "version" : "1.3.0"
       }
     },
     {
@@ -195,7 +195,7 @@
       "location" : "https://github.com/stackotter/swift-cross-ui",
       "state" : {
         "branch" : "main",
-        "revision" : "78f5f751b95c05b79e444367e01cef696353fc2c"
+        "revision" : "319e02384939b29208fbd4b5630a7b8b7f58e22e"
       }
     },
     {
@@ -256,8 +256,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stackotter/swift-macro-toolkit",
       "state" : {
-        "revision" : "569627091e1fbb8745d691aeeb008e7247dedb7c",
-        "version" : "0.6.1"
+        "revision" : "d319bcc2586f7dbc6a09c05792105078263f1ed3",
+        "version" : "0.7.2"
       }
     },
     {
@@ -265,8 +265,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio.git",
       "state" : {
-        "revision" : "e3d5c560e0a6bfa391a00e857aa28ad52a41fe8d",
-        "version" : "2.92.1"
+        "revision" : "4a9a97111099376854a7f8f0f9f88b9d61f52eff",
+        "version" : "2.92.2"
       }
     },
     {
@@ -292,8 +292,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swiftlang/swift-syntax.git",
       "state" : {
-        "revision" : "0687f71944021d616d34d922343dcef086855920",
-        "version" : "600.0.1"
+        "revision" : "f99ae8aa18f0cf0d53481901f88a0991dc3bd4a2",
+        "version" : "601.0.1"
       }
     },
     {
@@ -378,7 +378,7 @@
       "location" : "https://github.com/amethystsoft/vein",
       "state" : {
         "branch" : "main",
-        "revision" : "8b28f78701973b706e2a09d1f3029703bcbaa94b"
+        "revision" : "4dc830f3a652ad92431bbd73907ba793dc70dbb2"
       }
     },
     {
@@ -387,7 +387,7 @@
       "location" : "https://github.com/miakoring/vein-scui",
       "state" : {
         "branch" : "main",
-        "revision" : "5a3b1656f00a21914c4437d880478fed173e7ab4"
+        "revision" : "3e166d1a343047c0b59432aa768a9c2c2445a7a5"
       }
     },
     {

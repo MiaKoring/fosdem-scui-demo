@@ -46,11 +46,13 @@ struct SCUIDemoApp: App {
     
     var body: some Scene {
         WindowGroup {
-            VeinContainer {
-                ContentView()
+            #hotReloadable {
+                VeinContainer {
+                    ContentView()
+                }
+                .modelContainer(modelContainer)
+                .colorScheme(.dark)
             }
-            .modelContainer(modelContainer)
-            .colorScheme(.dark)
         }
         #if !canImport(UIKit)
             .windowResizability(.contentSize)

@@ -8,7 +8,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/stackotter/swift-bundler",
-            revision: "2cbe252923017306998297ee8bea817079a0eda4"
+            revision: "2dbcb92047148efbc20e9ed47f66bc2dfd93b3f7"
         ),
         .package(
             url: "https://github.com/stackotter/swift-cross-ui",

@@ -29,8 +29,6 @@ enum RecordingV1: VersionedSchema {
         init(name: String, audio: Data) {
             self.name = name
             self.audio = audio
-            
-            setupFields()
         }
     }
     
