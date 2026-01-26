@@ -20,7 +20,7 @@ struct SCUIDemoApp: App {
                 in: .userDomainMask
             ).first!
             
-            let dbDir = containerPath.relativePath.replacingOccurrences(of: "%20", with: " ").appending("/VeinSCUI/BasicExample/InternalData")
+            let dbDir = containerPath.relativePath.replacingOccurrences(of: "%20", with: " ").appending("/VeinSCUI/fosdem-scui-demo/InternalData")
             
             let dbPath = dbDir.appending("/db.sqlite3")
             
@@ -38,7 +38,7 @@ struct SCUIDemoApp: App {
                 )
             }
             
-            self.modelContainer = try ModelContainer(models: Recording.self, migration: Migration.self, at: dbPath)
+            self.modelContainer = try ModelContainer(RecordingV1.self, migration: Migration.self, at: dbPath)
         } catch {
             fatalError("failed to create model container: \(error.localizedDescription)")
         }

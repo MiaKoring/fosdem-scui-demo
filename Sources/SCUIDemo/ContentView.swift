@@ -55,6 +55,7 @@ struct ContentView: View {
                     audio: Data()
                 )
             )
+            try? context.save()
         }
     }
 }
