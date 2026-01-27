@@ -1,5 +1,5 @@
 {
-  "originHash" : "534983e172024d7af6baad157e3690cd67c51653b4988d8f2e7ea457cc82a8c3",
+  "originHash" : "224457561c325aa58a0d6f2022957425cc2a1e1b9001910bfb5e2015db7dc24b",
   "pins" : [
     {
       "identity" : "aexml",
@@ -114,8 +114,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/amethystsoft/SQLite.swift.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "b7efc89b94bab6a077ef2c56c64726cc57a61f38"
+        "revision" : "fcc6077f1f59aa2ae2a68c5628fac336d578ed52"
       }
     },
     {
@@ -195,7 +194,7 @@
       "location" : "https://github.com/stackotter/swift-cross-ui",
       "state" : {
         "branch" : "main",
-        "revision" : "d30b232d588d38f72ce66359d7c8dba4e361cc3d"
+        "revision" : "33a7aa25e34255e9ab655e8735159645cde2f231"
       }
     },
     {
@@ -378,16 +377,16 @@
       "location" : "https://github.com/amethystsoft/vein",
       "state" : {
         "branch" : "main",
-        "revision" : "a1d8ef618ff2d754f6fc874ce10e58f2feea9085"
+        "revision" : "220f58e0ea72ad85739e59368c3304fe37eb57ce"
       }
     },
     {
       "identity" : "vein-scui",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/miakoring/vein-scui",
+      "location" : "https://github.com/amethystsoft/vein-scui",
       "state" : {
         "branch" : "main",
-        "revision" : "26f286348e0a279f6d365145360d06df3bf38a0d"
+        "revision" : "cdc8c8933f43db67685d0e804b3fd9b6c4a3d312"
       }
     },
     {

@@ -14,7 +14,7 @@ let package = Package(
             url: "https://github.com/stackotter/swift-cross-ui",
             branch: "main"
         ),
-        .package(url: "https://github.com/miakoring/vein-scui", branch: "main")
+        .package(url: "https://github.com/amethystsoft/vein-scui", branch: "main")
     ],
     targets: [
         .executableTarget(
